@@ -5,8 +5,11 @@ import com.smn.apivendas.models.VendaItem;
 import com.smn.apivendas.repositories.VendaItemRepository;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
@@ -16,6 +19,8 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+@SpringBootTest
+@RunWith(SpringRunner.class)
 public class VendaItemServiceImplTest {
 
     private VendaItemServiceImpl vendaItemService;

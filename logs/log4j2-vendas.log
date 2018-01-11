@@ -1152,3 +1152,619 @@
   "threadId" : 36,
   "threadPriority" : 5
 }
+{
+  "timeMillis" : 1515697692906,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FK59etmr75a0778g0kxn4qqht5b",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515697693255,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515697693269,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FKccx5r1i1laij7vugru0kdhkhe",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515697693275,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515697701383,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515697701413,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515697701425,
+  "thread" : "main",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699759363,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FK59etmr75a0778g0kxn4qqht5b",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699759652,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699759655,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FKccx5r1i1laij7vugru0kdhkhe",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699759658,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699768006,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699768016,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699768018,
+  "thread" : "main",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699769950,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.PageNotFound",
+  "message" : "No mapping found for HTTP request with URI [/] in DispatcherServlet with name ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699770096,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.PageNotFound",
+  "message" : "No mapping found for HTTP request with URI [/2] in DispatcherServlet with name ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699770203,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.PageNotFound",
+  "message" : "No mapping found for HTTP request with URI [/] in DispatcherServlet with name ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699770286,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.PageNotFound",
+  "message" : "No mapping found for HTTP request with URI [/4] in DispatcherServlet with name ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699770360,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.PageNotFound",
+  "message" : "No mapping found for HTTP request with URI [/5] in DispatcherServlet with name ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699873759,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FK59etmr75a0778g0kxn4qqht5b",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699873890,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699873893,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FKccx5r1i1laij7vugru0kdhkhe",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699873895,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699881951,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699881967,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699881970,
+  "thread" : "main",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515699883926,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.engine.jdbc.spi.SqlExceptionHelper",
+  "message" : "integrity constraint violation: unique constraint or index violation; UK_5171L57FAOSMJ8MYAWAUCATDW table: USUARIO",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700138251,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FK59etmr75a0778g0kxn4qqht5b",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700138387,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700138390,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FKccx5r1i1laij7vugru0kdhkhe",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700138391,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700145074,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700145077,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700145083,
+  "thread" : "main",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700146390,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.engine.jdbc.spi.SqlExceptionHelper",
+  "message" : "integrity constraint violation: unique constraint or index violation; UK_5171L57FAOSMJ8MYAWAUCATDW table: USUARIO",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700227611,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FK59etmr75a0778g0kxn4qqht5b",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700227744,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700227748,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FKccx5r1i1laij7vugru0kdhkhe",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700227751,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700234120,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700234122,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700234124,
+  "thread" : "main",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700360875,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FK59etmr75a0778g0kxn4qqht5b",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700361018,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700361021,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FKccx5r1i1laij7vugru0kdhkhe",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700361023,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700367917,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700367920,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700367927,
+  "thread" : "main",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700425965,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FK59etmr75a0778g0kxn4qqht5b",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700426081,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700426085,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "HHH000389: Unsuccessful: alter table venda_item drop constraint FKccx5r1i1laij7vugru0kdhkhe",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700426089,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "org.hibernate.tool.hbm2ddl.SchemaExport",
+  "message" : "user lacks privilege or object not found: PUBLIC.VENDA_ITEM",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.jboss.logging.DelegatingBasicLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700432443,
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700432445,
+  "thread" : "main",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515700432448,
+  "thread" : "main",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5
+}

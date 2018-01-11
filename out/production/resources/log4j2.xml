@@ -27,13 +27,13 @@
         <Logger name="com.smn.apivendas" level="info" additivity="false">
             <AppenderRef ref="ConsoleAppender" />
             <AppenderRef ref="FileAppender" level="warn"/>
-            <AppenderRef ref="DatabaseAppender"/>
+            <AppenderRef ref="DatabaseAppender" level="warn"/>
         </Logger>
 
         <Root level="info">
             <AppenderRef ref="ConsoleAppender" />
             <AppenderRef ref="FileAppender" level="warn"/>
-            <AppenderRef ref="DatabaseAppender"/>
+            <AppenderRef ref="DatabaseAppender" level="warn"/>
         </Root>
     </Loggers>
 </Configuration>
