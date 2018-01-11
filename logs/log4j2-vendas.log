@@ -1,0 +1,1154 @@
+{
+  "timeMillis" : 1515672740255,
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext",
+  "message" : "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 16,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515672740412,
+  "thread" : "restartedMain",
+  "level" : "ERROR",
+  "loggerName" : "org.springframework.boot.SpringApplication",
+  "message" : "Application startup failed",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory",
+    "message" : "Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory",
+    "name" : "org.springframework.beans.factory.BeanCreationException",
+    "cause" : {
+      "commonElementCount" : 21,
+      "localizedMessage" : "[PersistenceUnit: default] Unable to build Hibernate SessionFactory",
+      "message" : "[PersistenceUnit: default] Unable to build Hibernate SessionFactory",
+      "name" : "javax.persistence.PersistenceException",
+      "cause" : {
+        "commonElementCount" : 21,
+        "localizedMessage" : "Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister",
+        "message" : "Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister",
+        "name" : "org.hibernate.MappingException",
+        "cause" : {
+          "commonElementCount" : 21,
+          "localizedMessage" : "could not instantiate test object : com.smn.apivendas.models.Log",
+          "message" : "could not instantiate test object : com.smn.apivendas.models.Log",
+          "name" : "org.hibernate.InstantiationException",
+          "cause" : {
+            "commonElementCount" : 21,
+            "name" : "java.lang.reflect.InvocationTargetException",
+            "cause" : {
+              "commonElementCount" : 21,
+              "localizedMessage" : "The wrapped event cannot be null.",
+              "message" : "The wrapped event cannot be null.",
+              "name" : "java.lang.IllegalArgumentException",
+              "extendedStackTrace" : [ {
+                "class" : "org.apache.logging.log4j.core.appender.db.jpa.AbstractLogEventWrapperEntity",
+                "method" : "<init>",
+                "file" : "AbstractLogEventWrapperEntity.java",
+                "line" : 94,
+                "exact" : false,
+                "location" : "log4j-core-2.7.jar",
+                "version" : "2.7"
+              }, {
+                "class" : "org.apache.logging.log4j.core.appender.db.jpa.BasicLogEventEntity",
+                "method" : "<init>",
+                "file" : "BasicLogEventEntity.java",
+                "line" : 86,
+                "exact" : false,
+                "location" : "log4j-core-2.7.jar",
+                "version" : "2.7"
+              }, {
+                "class" : "com.smn.apivendas.models.Log",
+                "method" : "<init>",
+                "file" : "Log.java",
+                "line" : 18,
+                "exact" : false,
+                "location" : "classes/",
+                "version" : "?"
+              }, {
+                "class" : "sun.reflect.NativeConstructorAccessorImpl",
+                "method" : "newInstance0",
+                "file" : "NativeConstructorAccessorImpl.java",
+                "line" : -2,
+                "exact" : false,
+                "location" : "?",
+                "version" : "1.8.0_151"
+              }, {
+                "class" : "sun.reflect.NativeConstructorAccessorImpl",
+                "method" : "newInstance",
+                "file" : "NativeConstructorAccessorImpl.java",
+                "line" : 62,
+                "exact" : false,
+                "location" : "?",
+                "version" : "1.8.0_151"
+              }, {
+                "class" : "sun.reflect.DelegatingConstructorAccessorImpl",
+                "method" : "newInstance",
+                "file" : "DelegatingConstructorAccessorImpl.java",
+                "line" : 45,
+                "exact" : false,
+                "location" : "?",
+                "version" : "1.8.0_151"
+              }, {
+                "class" : "java.lang.reflect.Constructor",
+                "method" : "newInstance",
+                "file" : "Constructor.java",
+                "line" : 423,
+                "exact" : false,
+                "location" : "?",
+                "version" : "1.8.0_151"
+              }, {
+                "class" : "org.hibernate.engine.internal.UnsavedValueFactory",
+                "method" : "instantiate",
+                "file" : "UnsavedValueFactory.java",
+                "line" : 40,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.hibernate.engine.internal.UnsavedValueFactory",
+                "method" : "getUnsavedIdentifierValue",
+                "file" : "UnsavedValueFactory.java",
+                "line" : 68,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.hibernate.tuple.PropertyFactory",
+                "method" : "buildIdentifierAttribute",
+                "file" : "PropertyFactory.java",
+                "line" : 61,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.hibernate.tuple.entity.EntityMetamodel",
+                "method" : "<init>",
+                "file" : "EntityMetamodel.java",
+                "line" : 141,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.hibernate.persister.entity.AbstractEntityPersister",
+                "method" : "<init>",
+                "file" : "AbstractEntityPersister.java",
+                "line" : 517,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.hibernate.persister.entity.SingleTableEntityPersister",
+                "method" : "<init>",
+                "file" : "SingleTableEntityPersister.java",
+                "line" : 124,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "sun.reflect.NativeConstructorAccessorImpl",
+                "method" : "newInstance0",
+                "file" : "NativeConstructorAccessorImpl.java",
+                "line" : -2,
+                "exact" : false,
+                "location" : "?",
+                "version" : "1.8.0_151"
+              }, {
+                "class" : "sun.reflect.NativeConstructorAccessorImpl",
+                "method" : "newInstance",
+                "file" : "NativeConstructorAccessorImpl.java",
+                "line" : 62,
+                "exact" : false,
+                "location" : "?",
+                "version" : "1.8.0_151"
+              }, {
+                "class" : "sun.reflect.DelegatingConstructorAccessorImpl",
+                "method" : "newInstance",
+                "file" : "DelegatingConstructorAccessorImpl.java",
+                "line" : 45,
+                "exact" : false,
+                "location" : "?",
+                "version" : "1.8.0_151"
+              }, {
+                "class" : "java.lang.reflect.Constructor",
+                "method" : "newInstance",
+                "file" : "Constructor.java",
+                "line" : 423,
+                "exact" : false,
+                "location" : "?",
+                "version" : "1.8.0_151"
+              }, {
+                "class" : "org.hibernate.persister.internal.PersisterFactoryImpl",
+                "method" : "createEntityPersister",
+                "file" : "PersisterFactoryImpl.java",
+                "line" : 96,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.hibernate.persister.internal.PersisterFactoryImpl",
+                "method" : "createEntityPersister",
+                "file" : "PersisterFactoryImpl.java",
+                "line" : 77,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.hibernate.internal.SessionFactoryImpl",
+                "method" : "<init>",
+                "file" : "SessionFactoryImpl.java",
+                "line" : 348,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.hibernate.boot.internal.SessionFactoryBuilderImpl",
+                "method" : "build",
+                "file" : "SessionFactoryBuilderImpl.java",
+                "line" : 444,
+                "exact" : false,
+                "location" : "hibernate-core-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+                "method" : "build",
+                "file" : "EntityManagerFactoryBuilderImpl.java",
+                "line" : 879,
+                "exact" : false,
+                "location" : "hibernate-entitymanager-5.0.12.Final.jar",
+                "version" : "5.0.12.Final"
+              }, {
+                "class" : "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider",
+                "method" : "createContainerEntityManagerFactory",
+                "file" : "SpringHibernateJpaPersistenceProvider.java",
+                "line" : 60,
+                "exact" : false,
+                "location" : "spring-orm-4.3.13.RELEASE.jar",
+                "version" : "4.3.13.RELEASE"
+              }, {
+                "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+                "method" : "createNativeEntityManagerFactory",
+                "file" : "LocalContainerEntityManagerFactoryBean.java",
+                "line" : 360,
+                "exact" : false,
+                "location" : "spring-orm-4.3.13.RELEASE.jar",
+                "version" : "4.3.13.RELEASE"
+              }, {
+                "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+                "method" : "buildNativeEntityManagerFactory",
+                "file" : "AbstractEntityManagerFactoryBean.java",
+                "line" : 382,
+                "exact" : false,
+                "location" : "spring-orm-4.3.13.RELEASE.jar",
+                "version" : "4.3.13.RELEASE"
+              }, {
+                "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+                "method" : "afterPropertiesSet",
+                "file" : "AbstractEntityManagerFactoryBean.java",
+                "line" : 371,
+                "exact" : false,
+                "location" : "spring-orm-4.3.13.RELEASE.jar",
+                "version" : "4.3.13.RELEASE"
+              }, {
+                "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+                "method" : "afterPropertiesSet",
+                "file" : "LocalContainerEntityManagerFactoryBean.java",
+                "line" : 336,
+                "exact" : false,
+                "location" : "spring-orm-4.3.13.RELEASE.jar",
+                "version" : "4.3.13.RELEASE"
+              }, {
+                "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+                "method" : "invokeInitMethods",
+                "file" : "AbstractAutowireCapableBeanFactory.java",
+                "line" : 1687,
+                "exact" : false,
+                "location" : "spring-beans-4.3.13.RELEASE.jar",
+                "version" : "4.3.13.RELEASE"
+              }, {
+                "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+                "method" : "initializeBean",
+                "file" : "AbstractAutowireCapableBeanFactory.java",
+                "line" : 1624,
+                "exact" : false,
+                "location" : "spring-beans-4.3.13.RELEASE.jar",
+                "version" : "4.3.13.RELEASE"
+              } ]
+            },
+            "extendedStackTrace" : [ {
+              "class" : "sun.reflect.NativeConstructorAccessorImpl",
+              "method" : "newInstance0",
+              "file" : "NativeConstructorAccessorImpl.java",
+              "line" : -2,
+              "exact" : false,
+              "location" : "?",
+              "version" : "1.8.0_151"
+            }, {
+              "class" : "sun.reflect.NativeConstructorAccessorImpl",
+              "method" : "newInstance",
+              "file" : "NativeConstructorAccessorImpl.java",
+              "line" : 62,
+              "exact" : false,
+              "location" : "?",
+              "version" : "1.8.0_151"
+            }, {
+              "class" : "sun.reflect.DelegatingConstructorAccessorImpl",
+              "method" : "newInstance",
+              "file" : "DelegatingConstructorAccessorImpl.java",
+              "line" : 45,
+              "exact" : false,
+              "location" : "?",
+              "version" : "1.8.0_151"
+            }, {
+              "class" : "java.lang.reflect.Constructor",
+              "method" : "newInstance",
+              "file" : "Constructor.java",
+              "line" : 423,
+              "exact" : false,
+              "location" : "?",
+              "version" : "1.8.0_151"
+            }, {
+              "class" : "org.hibernate.engine.internal.UnsavedValueFactory",
+              "method" : "instantiate",
+              "file" : "UnsavedValueFactory.java",
+              "line" : 40,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.hibernate.engine.internal.UnsavedValueFactory",
+              "method" : "getUnsavedIdentifierValue",
+              "file" : "UnsavedValueFactory.java",
+              "line" : 68,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.hibernate.tuple.PropertyFactory",
+              "method" : "buildIdentifierAttribute",
+              "file" : "PropertyFactory.java",
+              "line" : 61,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.hibernate.tuple.entity.EntityMetamodel",
+              "method" : "<init>",
+              "file" : "EntityMetamodel.java",
+              "line" : 141,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.hibernate.persister.entity.AbstractEntityPersister",
+              "method" : "<init>",
+              "file" : "AbstractEntityPersister.java",
+              "line" : 517,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.hibernate.persister.entity.SingleTableEntityPersister",
+              "method" : "<init>",
+              "file" : "SingleTableEntityPersister.java",
+              "line" : 124,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "sun.reflect.NativeConstructorAccessorImpl",
+              "method" : "newInstance0",
+              "file" : "NativeConstructorAccessorImpl.java",
+              "line" : -2,
+              "exact" : false,
+              "location" : "?",
+              "version" : "1.8.0_151"
+            }, {
+              "class" : "sun.reflect.NativeConstructorAccessorImpl",
+              "method" : "newInstance",
+              "file" : "NativeConstructorAccessorImpl.java",
+              "line" : 62,
+              "exact" : false,
+              "location" : "?",
+              "version" : "1.8.0_151"
+            }, {
+              "class" : "sun.reflect.DelegatingConstructorAccessorImpl",
+              "method" : "newInstance",
+              "file" : "DelegatingConstructorAccessorImpl.java",
+              "line" : 45,
+              "exact" : false,
+              "location" : "?",
+              "version" : "1.8.0_151"
+            }, {
+              "class" : "java.lang.reflect.Constructor",
+              "method" : "newInstance",
+              "file" : "Constructor.java",
+              "line" : 423,
+              "exact" : false,
+              "location" : "?",
+              "version" : "1.8.0_151"
+            }, {
+              "class" : "org.hibernate.persister.internal.PersisterFactoryImpl",
+              "method" : "createEntityPersister",
+              "file" : "PersisterFactoryImpl.java",
+              "line" : 96,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.hibernate.persister.internal.PersisterFactoryImpl",
+              "method" : "createEntityPersister",
+              "file" : "PersisterFactoryImpl.java",
+              "line" : 77,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.hibernate.internal.SessionFactoryImpl",
+              "method" : "<init>",
+              "file" : "SessionFactoryImpl.java",
+              "line" : 348,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.hibernate.boot.internal.SessionFactoryBuilderImpl",
+              "method" : "build",
+              "file" : "SessionFactoryBuilderImpl.java",
+              "line" : 444,
+              "exact" : false,
+              "location" : "hibernate-core-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+              "method" : "build",
+              "file" : "EntityManagerFactoryBuilderImpl.java",
+              "line" : 879,
+              "exact" : false,
+              "location" : "hibernate-entitymanager-5.0.12.Final.jar",
+              "version" : "5.0.12.Final"
+            }, {
+              "class" : "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider",
+              "method" : "createContainerEntityManagerFactory",
+              "file" : "SpringHibernateJpaPersistenceProvider.java",
+              "line" : 60,
+              "exact" : false,
+              "location" : "spring-orm-4.3.13.RELEASE.jar",
+              "version" : "4.3.13.RELEASE"
+            }, {
+              "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+              "method" : "createNativeEntityManagerFactory",
+              "file" : "LocalContainerEntityManagerFactoryBean.java",
+              "line" : 360,
+              "exact" : false,
+              "location" : "spring-orm-4.3.13.RELEASE.jar",
+              "version" : "4.3.13.RELEASE"
+            }, {
+              "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+              "method" : "buildNativeEntityManagerFactory",
+              "file" : "AbstractEntityManagerFactoryBean.java",
+              "line" : 382,
+              "exact" : false,
+              "location" : "spring-orm-4.3.13.RELEASE.jar",
+              "version" : "4.3.13.RELEASE"
+            }, {
+              "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+              "method" : "afterPropertiesSet",
+              "file" : "AbstractEntityManagerFactoryBean.java",
+              "line" : 371,
+              "exact" : false,
+              "location" : "spring-orm-4.3.13.RELEASE.jar",
+              "version" : "4.3.13.RELEASE"
+            }, {
+              "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+              "method" : "afterPropertiesSet",
+              "file" : "LocalContainerEntityManagerFactoryBean.java",
+              "line" : 336,
+              "exact" : false,
+              "location" : "spring-orm-4.3.13.RELEASE.jar",
+              "version" : "4.3.13.RELEASE"
+            }, {
+              "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+              "method" : "invokeInitMethods",
+              "file" : "AbstractAutowireCapableBeanFactory.java",
+              "line" : 1687,
+              "exact" : false,
+              "location" : "spring-beans-4.3.13.RELEASE.jar",
+              "version" : "4.3.13.RELEASE"
+            }, {
+              "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+              "method" : "initializeBean",
+              "file" : "AbstractAutowireCapableBeanFactory.java",
+              "line" : 1624,
+              "exact" : false,
+              "location" : "spring-beans-4.3.13.RELEASE.jar",
+              "version" : "4.3.13.RELEASE"
+            } ]
+          },
+          "extendedStackTrace" : [ {
+            "class" : "org.hibernate.engine.internal.UnsavedValueFactory",
+            "method" : "instantiate",
+            "file" : "UnsavedValueFactory.java",
+            "line" : 43,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.hibernate.engine.internal.UnsavedValueFactory",
+            "method" : "getUnsavedIdentifierValue",
+            "file" : "UnsavedValueFactory.java",
+            "line" : 68,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.hibernate.tuple.PropertyFactory",
+            "method" : "buildIdentifierAttribute",
+            "file" : "PropertyFactory.java",
+            "line" : 61,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.hibernate.tuple.entity.EntityMetamodel",
+            "method" : "<init>",
+            "file" : "EntityMetamodel.java",
+            "line" : 141,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.hibernate.persister.entity.AbstractEntityPersister",
+            "method" : "<init>",
+            "file" : "AbstractEntityPersister.java",
+            "line" : 517,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.hibernate.persister.entity.SingleTableEntityPersister",
+            "method" : "<init>",
+            "file" : "SingleTableEntityPersister.java",
+            "line" : 124,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "sun.reflect.NativeConstructorAccessorImpl",
+            "method" : "newInstance0",
+            "file" : "NativeConstructorAccessorImpl.java",
+            "line" : -2,
+            "exact" : false,
+            "location" : "?",
+            "version" : "1.8.0_151"
+          }, {
+            "class" : "sun.reflect.NativeConstructorAccessorImpl",
+            "method" : "newInstance",
+            "file" : "NativeConstructorAccessorImpl.java",
+            "line" : 62,
+            "exact" : false,
+            "location" : "?",
+            "version" : "1.8.0_151"
+          }, {
+            "class" : "sun.reflect.DelegatingConstructorAccessorImpl",
+            "method" : "newInstance",
+            "file" : "DelegatingConstructorAccessorImpl.java",
+            "line" : 45,
+            "exact" : false,
+            "location" : "?",
+            "version" : "1.8.0_151"
+          }, {
+            "class" : "java.lang.reflect.Constructor",
+            "method" : "newInstance",
+            "file" : "Constructor.java",
+            "line" : 423,
+            "exact" : false,
+            "location" : "?",
+            "version" : "1.8.0_151"
+          }, {
+            "class" : "org.hibernate.persister.internal.PersisterFactoryImpl",
+            "method" : "createEntityPersister",
+            "file" : "PersisterFactoryImpl.java",
+            "line" : 96,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.hibernate.persister.internal.PersisterFactoryImpl",
+            "method" : "createEntityPersister",
+            "file" : "PersisterFactoryImpl.java",
+            "line" : 77,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.hibernate.internal.SessionFactoryImpl",
+            "method" : "<init>",
+            "file" : "SessionFactoryImpl.java",
+            "line" : 348,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.hibernate.boot.internal.SessionFactoryBuilderImpl",
+            "method" : "build",
+            "file" : "SessionFactoryBuilderImpl.java",
+            "line" : 444,
+            "exact" : false,
+            "location" : "hibernate-core-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+            "method" : "build",
+            "file" : "EntityManagerFactoryBuilderImpl.java",
+            "line" : 879,
+            "exact" : false,
+            "location" : "hibernate-entitymanager-5.0.12.Final.jar",
+            "version" : "5.0.12.Final"
+          }, {
+            "class" : "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider",
+            "method" : "createContainerEntityManagerFactory",
+            "file" : "SpringHibernateJpaPersistenceProvider.java",
+            "line" : 60,
+            "exact" : false,
+            "location" : "spring-orm-4.3.13.RELEASE.jar",
+            "version" : "4.3.13.RELEASE"
+          }, {
+            "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+            "method" : "createNativeEntityManagerFactory",
+            "file" : "LocalContainerEntityManagerFactoryBean.java",
+            "line" : 360,
+            "exact" : false,
+            "location" : "spring-orm-4.3.13.RELEASE.jar",
+            "version" : "4.3.13.RELEASE"
+          }, {
+            "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+            "method" : "buildNativeEntityManagerFactory",
+            "file" : "AbstractEntityManagerFactoryBean.java",
+            "line" : 382,
+            "exact" : false,
+            "location" : "spring-orm-4.3.13.RELEASE.jar",
+            "version" : "4.3.13.RELEASE"
+          }, {
+            "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+            "method" : "afterPropertiesSet",
+            "file" : "AbstractEntityManagerFactoryBean.java",
+            "line" : 371,
+            "exact" : false,
+            "location" : "spring-orm-4.3.13.RELEASE.jar",
+            "version" : "4.3.13.RELEASE"
+          }, {
+            "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+            "method" : "afterPropertiesSet",
+            "file" : "LocalContainerEntityManagerFactoryBean.java",
+            "line" : 336,
+            "exact" : false,
+            "location" : "spring-orm-4.3.13.RELEASE.jar",
+            "version" : "4.3.13.RELEASE"
+          }, {
+            "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+            "method" : "invokeInitMethods",
+            "file" : "AbstractAutowireCapableBeanFactory.java",
+            "line" : 1687,
+            "exact" : false,
+            "location" : "spring-beans-4.3.13.RELEASE.jar",
+            "version" : "4.3.13.RELEASE"
+          }, {
+            "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+            "method" : "initializeBean",
+            "file" : "AbstractAutowireCapableBeanFactory.java",
+            "line" : 1624,
+            "exact" : false,
+            "location" : "spring-beans-4.3.13.RELEASE.jar",
+            "version" : "4.3.13.RELEASE"
+          } ]
+        },
+        "extendedStackTrace" : [ {
+          "class" : "org.hibernate.persister.internal.PersisterFactoryImpl",
+          "method" : "createEntityPersister",
+          "file" : "PersisterFactoryImpl.java",
+          "line" : 123,
+          "exact" : false,
+          "location" : "hibernate-core-5.0.12.Final.jar",
+          "version" : "5.0.12.Final"
+        }, {
+          "class" : "org.hibernate.persister.internal.PersisterFactoryImpl",
+          "method" : "createEntityPersister",
+          "file" : "PersisterFactoryImpl.java",
+          "line" : 77,
+          "exact" : false,
+          "location" : "hibernate-core-5.0.12.Final.jar",
+          "version" : "5.0.12.Final"
+        }, {
+          "class" : "org.hibernate.internal.SessionFactoryImpl",
+          "method" : "<init>",
+          "file" : "SessionFactoryImpl.java",
+          "line" : 348,
+          "exact" : false,
+          "location" : "hibernate-core-5.0.12.Final.jar",
+          "version" : "5.0.12.Final"
+        }, {
+          "class" : "org.hibernate.boot.internal.SessionFactoryBuilderImpl",
+          "method" : "build",
+          "file" : "SessionFactoryBuilderImpl.java",
+          "line" : 444,
+          "exact" : false,
+          "location" : "hibernate-core-5.0.12.Final.jar",
+          "version" : "5.0.12.Final"
+        }, {
+          "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+          "method" : "build",
+          "file" : "EntityManagerFactoryBuilderImpl.java",
+          "line" : 879,
+          "exact" : false,
+          "location" : "hibernate-entitymanager-5.0.12.Final.jar",
+          "version" : "5.0.12.Final"
+        }, {
+          "class" : "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider",
+          "method" : "createContainerEntityManagerFactory",
+          "file" : "SpringHibernateJpaPersistenceProvider.java",
+          "line" : 60,
+          "exact" : false,
+          "location" : "spring-orm-4.3.13.RELEASE.jar",
+          "version" : "4.3.13.RELEASE"
+        }, {
+          "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+          "method" : "createNativeEntityManagerFactory",
+          "file" : "LocalContainerEntityManagerFactoryBean.java",
+          "line" : 360,
+          "exact" : false,
+          "location" : "spring-orm-4.3.13.RELEASE.jar",
+          "version" : "4.3.13.RELEASE"
+        }, {
+          "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+          "method" : "buildNativeEntityManagerFactory",
+          "file" : "AbstractEntityManagerFactoryBean.java",
+          "line" : 382,
+          "exact" : false,
+          "location" : "spring-orm-4.3.13.RELEASE.jar",
+          "version" : "4.3.13.RELEASE"
+        }, {
+          "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+          "method" : "afterPropertiesSet",
+          "file" : "AbstractEntityManagerFactoryBean.java",
+          "line" : 371,
+          "exact" : false,
+          "location" : "spring-orm-4.3.13.RELEASE.jar",
+          "version" : "4.3.13.RELEASE"
+        }, {
+          "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+          "method" : "afterPropertiesSet",
+          "file" : "LocalContainerEntityManagerFactoryBean.java",
+          "line" : 336,
+          "exact" : false,
+          "location" : "spring-orm-4.3.13.RELEASE.jar",
+          "version" : "4.3.13.RELEASE"
+        }, {
+          "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+          "method" : "invokeInitMethods",
+          "file" : "AbstractAutowireCapableBeanFactory.java",
+          "line" : 1687,
+          "exact" : false,
+          "location" : "spring-beans-4.3.13.RELEASE.jar",
+          "version" : "4.3.13.RELEASE"
+        }, {
+          "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+          "method" : "initializeBean",
+          "file" : "AbstractAutowireCapableBeanFactory.java",
+          "line" : 1624,
+          "exact" : false,
+          "location" : "spring-beans-4.3.13.RELEASE.jar",
+          "version" : "4.3.13.RELEASE"
+        } ]
+      },
+      "extendedStackTrace" : [ {
+        "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+        "method" : "persistenceException",
+        "file" : "EntityManagerFactoryBuilderImpl.java",
+        "line" : 954,
+        "exact" : false,
+        "location" : "hibernate-entitymanager-5.0.12.Final.jar",
+        "version" : "5.0.12.Final"
+      }, {
+        "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+        "method" : "build",
+        "file" : "EntityManagerFactoryBuilderImpl.java",
+        "line" : 882,
+        "exact" : false,
+        "location" : "hibernate-entitymanager-5.0.12.Final.jar",
+        "version" : "5.0.12.Final"
+      }, {
+        "class" : "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider",
+        "method" : "createContainerEntityManagerFactory",
+        "file" : "SpringHibernateJpaPersistenceProvider.java",
+        "line" : 60,
+        "exact" : false,
+        "location" : "spring-orm-4.3.13.RELEASE.jar",
+        "version" : "4.3.13.RELEASE"
+      }, {
+        "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+        "method" : "createNativeEntityManagerFactory",
+        "file" : "LocalContainerEntityManagerFactoryBean.java",
+        "line" : 360,
+        "exact" : false,
+        "location" : "spring-orm-4.3.13.RELEASE.jar",
+        "version" : "4.3.13.RELEASE"
+      }, {
+        "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+        "method" : "buildNativeEntityManagerFactory",
+        "file" : "AbstractEntityManagerFactoryBean.java",
+        "line" : 382,
+        "exact" : false,
+        "location" : "spring-orm-4.3.13.RELEASE.jar",
+        "version" : "4.3.13.RELEASE"
+      }, {
+        "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+        "method" : "afterPropertiesSet",
+        "file" : "AbstractEntityManagerFactoryBean.java",
+        "line" : 371,
+        "exact" : false,
+        "location" : "spring-orm-4.3.13.RELEASE.jar",
+        "version" : "4.3.13.RELEASE"
+      }, {
+        "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+        "method" : "afterPropertiesSet",
+        "file" : "LocalContainerEntityManagerFactoryBean.java",
+        "line" : 336,
+        "exact" : false,
+        "location" : "spring-orm-4.3.13.RELEASE.jar",
+        "version" : "4.3.13.RELEASE"
+      }, {
+        "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+        "method" : "invokeInitMethods",
+        "file" : "AbstractAutowireCapableBeanFactory.java",
+        "line" : 1687,
+        "exact" : false,
+        "location" : "spring-beans-4.3.13.RELEASE.jar",
+        "version" : "4.3.13.RELEASE"
+      }, {
+        "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+        "method" : "initializeBean",
+        "file" : "AbstractAutowireCapableBeanFactory.java",
+        "line" : 1624,
+        "exact" : false,
+        "location" : "spring-beans-4.3.13.RELEASE.jar",
+        "version" : "4.3.13.RELEASE"
+      } ]
+    },
+    "extendedStackTrace" : [ {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "initializeBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 1628,
+      "exact" : false,
+      "location" : "spring-beans-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "doCreateBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 555,
+      "exact" : false,
+      "location" : "spring-beans-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "createBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 483,
+      "exact" : false,
+      "location" : "spring-beans-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory$1",
+      "method" : "getObject",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 306,
+      "exact" : false,
+      "location" : "spring-beans-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.beans.factory.support.DefaultSingletonBeanRegistry",
+      "method" : "getSingleton",
+      "file" : "DefaultSingletonBeanRegistry.java",
+      "line" : 230,
+      "exact" : false,
+      "location" : "spring-beans-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "doGetBean",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 302,
+      "exact" : false,
+      "location" : "spring-beans-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "getBean",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 197,
+      "exact" : false,
+      "location" : "spring-beans-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "getBean",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 1080,
+      "exact" : false,
+      "location" : "spring-context-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "finishBeanFactoryInitialization",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 857,
+      "exact" : false,
+      "location" : "spring-context-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "refresh",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 543,
+      "exact" : false,
+      "location" : "spring-context-4.3.13.RELEASE.jar",
+      "version" : "4.3.13.RELEASE"
+    }, {
+      "class" : "org.springframework.boot.context.embedded.EmbeddedWebApplicationContext",
+      "method" : "refresh",
+      "file" : "EmbeddedWebApplicationContext.java",
+      "line" : 122,
+      "exact" : false,
+      "location" : "spring-boot-1.5.9.RELEASE.jar",
+      "version" : "1.5.9.RELEASE"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "refresh",
+      "file" : "SpringApplication.java",
+      "line" : 693,
+      "exact" : true,
+      "location" : "spring-boot-1.5.9.RELEASE.jar",
+      "version" : "1.5.9.RELEASE"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "refreshContext",
+      "file" : "SpringApplication.java",
+      "line" : 360,
+      "exact" : true,
+      "location" : "spring-boot-1.5.9.RELEASE.jar",
+      "version" : "1.5.9.RELEASE"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 303,
+      "exact" : true,
+      "location" : "spring-boot-1.5.9.RELEASE.jar",
+      "version" : "1.5.9.RELEASE"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 1118,
+      "exact" : true,
+      "location" : "spring-boot-1.5.9.RELEASE.jar",
+      "version" : "1.5.9.RELEASE"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 1107,
+      "exact" : true,
+      "location" : "spring-boot-1.5.9.RELEASE.jar",
+      "version" : "1.5.9.RELEASE"
+    }, {
+      "class" : "com.smn.apivendas.ApiVendasApplication",
+      "method" : "main",
+      "file" : "ApiVendasApplication.java",
+      "line" : 10,
+      "exact" : true,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "class" : "sun.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_151"
+    }, {
+      "class" : "sun.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 62,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_151"
+    }, {
+      "class" : "sun.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_151"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 498,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_151"
+    }, {
+      "class" : "org.springframework.boot.devtools.restart.RestartLauncher",
+      "method" : "run",
+      "file" : "RestartLauncher.java",
+      "line" : 49,
+      "exact" : true,
+      "location" : "spring-boot-devtools-1.5.9.RELEASE.jar",
+      "version" : "1.5.9.RELEASE"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.impl.SLF4JLocationAwareLog",
+  "threadId" : 16,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515672829037,
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515672829090,
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515672829090,
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 35,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515685482362,
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515685482495,
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515685482496,
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 33,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515685778613,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515685778731,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515685778731,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 32,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515686045239,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "WARN",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "WARN MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515686045440,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "ERROR",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "ERROR MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5
+}
+{
+  "timeMillis" : 1515686045449,
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "FATAL",
+  "loggerName" : "com.smn.apivendas.ApiVendasApplication",
+  "message" : "FATAL MESSAGE",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 36,
+  "threadPriority" : 5
+}
